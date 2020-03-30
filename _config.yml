@@ -116,10 +116,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/hyuntaekhong"
+      # url: "hyuntaekhong"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/hong_taek"
+      # url: "hong_taek"
 
 # Site Footer
 footer:
