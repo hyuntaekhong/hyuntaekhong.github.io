@@ -98,8 +98,8 @@ author:
   bio              : "초보 개발자의 개인 공부 블로그"
   location         : "Seoul, Korea"
   email            : "hongtaek92@gmail.com"
-  github           : "https://github.com/hyuntaekhong" 
-  instagram        : "https://instagram.com/hong_taek" 
+  github           : "hyuntaekhong" 
+  instagram        : "hong_taek" 
 
   links:
     - label: "Email"
@@ -116,10 +116,10 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "hyuntaekhong"
+      # url: "https://github.com/hyuntaekhong"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "hong_taek"
+      # url: "https://instagram.com/hong_taek"
 
 # Site Footer
 footer:
