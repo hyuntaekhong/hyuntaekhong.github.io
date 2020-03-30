@@ -1,6 +1,8 @@
 main:
   - title: "Archive"
-    url: /year-archive/
+    url: /posts/
+  - title: "Home"
+    url: /home/
   - title: "tag"
     url: /tags/
   - title: "Category"
