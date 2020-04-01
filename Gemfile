@@ -1,14 +1,10 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.5"
-gem "minimal-mistakes-jekyll"
-gem "github-pages", "~> 168"
-gem "rake", "~> 12.3.0"
+gem "json"  #추가
+gem "jekyll"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "jekyll-paginate"
+gem "jekyll-gist"
 
-group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem "jekyll-seo-tag"
-  gem "jekyll-sitemap"
-  gem "jekyll-paginate"
-  gem "jekyll-algolia"
-end
+gem 'jekyll-include-cache'
