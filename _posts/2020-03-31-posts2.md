@@ -9,7 +9,7 @@ tags:
   - edge case
   - lists
   - markup
-layout: default
+layout: posts
 comments: true
 # other options
 ---
