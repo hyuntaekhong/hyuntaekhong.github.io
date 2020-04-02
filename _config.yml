@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko"
@@ -20,7 +20,7 @@ title                    : "홍현택의 블로그!!!"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Hyun-Taek Hong"
-description              : "Ny Blog"
+description              : "My Blog"
 url                      : # the base hostname & protocol for your site e.g. "https://hyuntaekhong.github.io"
 baseurl                  : # the subpath of your site, e.g. ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -39,7 +39,7 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "light"
+    colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-light"
     issue_term           : # "pathname" (default)

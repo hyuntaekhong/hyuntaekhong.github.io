@@ -1,5 +1,6 @@
 ---
 title: "Edge Case: Nested and Mixed Lists"
+date: 2020-03-30
 categories:
   - Edge Case
 tags:

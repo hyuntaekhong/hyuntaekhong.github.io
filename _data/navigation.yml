@@ -1,9 +1,9 @@
 main:
-  - title: "포스팅"
-    url: https://hyuntaekhong.github.io/hyuntaekhong//posts/
-  - title: "Tags"
-    url: /tags/
-  - title: "Category"
-    url: /categories/
+  - title: "Home"
+    url: /  
   - title: "About"
     url: /about/
+  - title: "Posts"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
