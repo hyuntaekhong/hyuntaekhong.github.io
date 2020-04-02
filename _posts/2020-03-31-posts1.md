@@ -9,7 +9,6 @@ tags:
   - edge case
   - lists
   - markup
-layout: posts
 comments: true
 # other options
 ---
