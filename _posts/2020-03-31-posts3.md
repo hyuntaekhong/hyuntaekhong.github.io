@@ -9,6 +9,9 @@ tags:
   - edge case
   - lists
   - markup
+layout: default
+comments: true
+# other options
 ---
 
 Nested and mixed lists are an interesting beast. It's a corner case to make sure that
