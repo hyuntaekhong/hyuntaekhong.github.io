@@ -1,7 +1,7 @@
 main:
-  - title: "Archive"
-    url: /year-archive/
-  - title: "tag"
+  - title: "포스팅"
+    url: https://hyuntaekhong.github.io/hyuntaekhong//posts/
+  - title: "Tags"
     url: /tags/
   - title: "Category"
     url: /categories/
