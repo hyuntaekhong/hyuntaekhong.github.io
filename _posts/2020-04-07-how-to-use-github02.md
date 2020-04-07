@@ -1,5 +1,5 @@
 ---
-title: "[Github] 초보 개발자의 Github 사용법(2)"
+title: "[Github] 초보 개발자의 Github 사용법(2)_Git 설치"
 date: 2020-04-07
 categories:
   - blog
@@ -7,7 +7,7 @@ tags:
   - github
 comments: true
 excerpt: "Git 설치와 기본 명령어를 정리해보았습니다."
-last_modified_at: 2020-04-02T14:07:54-04:00
+last_modified_at: 2020-04-07T14:07:54-04:00
 toc: true
 ---
 
