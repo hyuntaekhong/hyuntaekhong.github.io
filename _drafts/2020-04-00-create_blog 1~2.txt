@@ -1,7 +1,0 @@
-1. 깃블로그 만들기(1) https://honbabzone.com/jekyll/start-gitHubBlog/#step-1--%EA%B9%83-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%9E%80 참고
-1) git repository 생성 2) jekyll theme 적용 3) ruby install 4) jekyll setting 5) 로컬 확인/ 도메인 연결
-
-2. 깃블로그 만들기(2) 
-1) dispus연결, 2) 구글 검색설정
-
-
