@@ -5,7 +5,6 @@ categories:
   - blog
 tags:
   - github
-  - gitbash
 comments: true
 excerpt: "Git 설치와 기본 명령어를 정리해보았습니다."
 last_modified_at: 2020-04-02T14:07:54-04:00

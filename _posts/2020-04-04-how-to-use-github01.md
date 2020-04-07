@@ -77,4 +77,4 @@ repository(저장소)는 파일이나 디렉토리를 저장하는 장소입니�
 <br/>
 이렇게 GitHub 기본 사용법을 익혀봤는데요. 다음에는 로컬저장소에서 작업하는 방법을 알아보도록 하겠습니다!
 
-링크
+[[Github] 초보 개발자의 Github 사용법(2)_Git 설치](https://hyuntaekhong.github.io/blog/how-to-use-github02/)
