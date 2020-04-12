@@ -1,5 +1,5 @@
 ---
-title: "[Java] 이클립스 간단한 사용방법"
+title: "[Java] 이클립스 간단한 사용방법(Java Project, Package, Class 생성)"
 date: 2020-04-12
 categories:
   - blog
@@ -7,7 +7,7 @@ tags:
   - Java
   - Eclipse
 comments: true
-excerpt: "이클립스를 이용해 Java Project, Package, Class를 만들어보겠습니다."
+excerpt: "이클립스(Eclipse)를 이용해 Java Project, Package, Class를 만들어보겠습니다."
 last_modified_at: 2020-04-12T22:45:50-03:00
 toc: true
 ---

@@ -61,4 +61,9 @@ toc: true
 	![이클립스 다운로드_6](/assets/images/eclipse/eclipse09.png){: width="80%" height="80%"}
 
 
-다음에는 이클립스의 Java Project, Package, Class를 만들어 보며 기본 사용법을 배워보겠습니다.
+다음에는 **[Java] 이클립스 간단한 사용방법(Java Project, Package, Class 생성)**에 대해 알아보겠습니다.
+
+
+
+### **[[Java] 이클립스 간단한 사용방법(Java Project, Package, Class 생성)](https://hyuntaekhong.github.io/blog/how-to-use-eclipse/)**
+
