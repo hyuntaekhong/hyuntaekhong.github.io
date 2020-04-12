@@ -18,7 +18,7 @@ toc: true
 
 ## 2. 이클립스 설치방법
 
-#### 설치파일 다운로드 
+### 설치파일 다운로드 
 
 이클립스는 **[www.eclipse.org]("https://www.eclipse.org/")**에서 eclipse-inst-win64.exe 파일을 다운로드 받으시면 됩니다. 
 
@@ -44,8 +44,7 @@ toc: true
 	
 	![이클립스 다운로드_6](/assets/images/eclipse/eclipse06.png){: width="80%" height="80%"}
 
-
-#### 설치완료 후 실행
+### 설치완료 후 실행
 
 - 설치된 이클립스를 실행합니다. 
 
