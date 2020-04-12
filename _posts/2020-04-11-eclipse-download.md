@@ -1,13 +1,13 @@
 ---
-title: "[JAVA] 이클립스 설치(Eclipse IDE for JAVA Developers)"
+title: "[Java] 이클립스 설치(Eclipse IDE for Java Developers)"
 date: 2020-04-11
 categories:
   - blog
 tags:
-  - JAVA
+  - Java
   - Eclipse
 comments: true
-excerpt: "JAVA를 사용하기 위해 이클립스를 설치해보겠습니다. (Eclipse IDE for JAVA Developers)"
+excerpt: "Java를 사용하기 위해 이클립스를 설치해보겠습니다. (Eclipse IDE for Java Developers)"
 last_modified_at: 2020-04-11T20:07:54-04:00
 toc: true
 ---
