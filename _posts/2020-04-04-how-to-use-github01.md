@@ -1,5 +1,5 @@
 ---
-title: "[Github] 초보 개발자의 Github 사용법(1)"
+title: "[Github] 초보 개발자의 Github 사용법(1)_Git 기초"
 date: 2020-04-04
 categories:
   - blog
