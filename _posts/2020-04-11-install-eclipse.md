@@ -16,6 +16,12 @@ toc: true
 
 이클립스는 Java를 비롯한 다양한 언어를 지원하는 프로그래밍 통합 개발 환경(IDE)입니다. Java 이외에도 거의 모든 개발이 가능한 개발 툴로 무료로 설치가 가능해 버그가 많은 편이지만, 개발자들에게 많이 사용되는 툴입니다. 저는 Java를 배우기 위해 'Eclipse IDE for Java Developers'를 설치했습니다. 
 
+**※ 이클립스 설치에 앞서 Java가 설치되지 않았다면 먼저 JDK를 설치하고 이클립스 설치를 진행해야 합니다.**
+
+**JDK 설치방법   ==>   [[Java] Java 설치와 환경변수 설정 (JDK 8)]("https://hyuntaekhong.github.io/blog/install-JDK/")**
+
+
+
 ## 2. 이클립스 설치방법
 
 ### 설치파일 다운로드 
