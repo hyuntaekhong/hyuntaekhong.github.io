@@ -1,5 +1,5 @@
 ---
-title: "[Java] 이클립스 설치(Eclipse IDE for Java Developers)"
+title: "[Eclipse] 이클립스 설치(Eclipse IDE for Java Developers)"
 date: 2020-04-11
 categories:
   - blog

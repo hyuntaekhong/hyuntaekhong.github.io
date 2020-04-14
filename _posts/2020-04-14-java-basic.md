@@ -34,68 +34,91 @@ toc: true
 
 ## 자바 소스 작성과 실행
 
-자바 공부를 위해 이클립스를 설치했지만, 그 전에 작성한 소스파일이 JVM에서 구동되는 과정 **'소스파일(Hello.java) -> 바이트코드 파일(Hello.class) -> JVM을 통한 기계어 번역(java.exe) 실행'** 을 살펴보겠습니다.
+자바 공부를 위해 이클립스를 설치했지만, 그 전에 작성한 소스파일이 JVM에서 구동되는 과정 **`소스파일(Hello.java) -> 바이트코드 파일(Hello.class) -> JVM을 통한 기계어 번역(java.exe) 실행`** 을 살펴보겠습니다.
 
 ![자바기초](\assets\images\java\javabase08.png)
 
 
-###### 1. 먼저 소스 파일을 작성해줍니다. 메모장을 열고 [ 파일 > 다른 이름으로 저장 > 저장 위치는 'C:\Temp 디렉토리' > 파일명은 'Hello.java' > 저장 ]
-<br/>
+먼저 소스 파일을 작성해줍니다. 메모장을 열고 **`파일 > 다른 이름으로 저장 > 저장 위치는 'C:\Temp 디렉토리' > 파일명은 'Hello.java' > 저장`**
 
 ![자바기초](\assets\images\java\javabase02.png)
 
 ![자바기초](\assets\images\java\javabase03.png)
-
-
-###### 2. 다음과 같이 "Hello Java!!"를 출력하는 소스 파일을 작성합니다. 
+<br/>
 <br/>
 
-	public class Hello {
-		public static void main(String[] args) {
-			System.out.println("Hellow Java!!");
-		}
+
+다음과 같이 "Hello Java!!"를 출력하는 소스 파일을 작성합니다. 
+
+```
+public class Hello { 
+	public static void main(String[] args) {
+		System.out.println("Hellow Java!!");
 	}
-
-###### 3. CMD 명령창을 실행하고 C:\Temp 디렉토리로 이동하기 위해 아래와 같이 작성하고 엔터를 누릅니다.
+}
+```
+<br/>
 <br/>
 
-	cd C:\temp
 
-###### 4. 해당 디렉토리 Hello.java 소스 파일을 확인하는 명령어를 실행합니다.
+CMD 명령창을 실행하고 C:\Temp 디렉토리로 이동하기 위해 아래와 같이 작성하고 엔터를 누릅니다.
+
+``` 
+cd C:\temp 
+```
+<br/>
 <br/>
 
-	dir
+
+해당 디렉토리 Hello.java 소스 파일을 확인하는 명령어를 실행합니다.
+
+```
+dir
+```
+<br/>
+<br/>
 
 결과는 아래와 같이 나옵니다. 
 
 ![자바기초](\assets\images\java\javabase04.png)
-
-
-###### 5. 컴파일러로 Hello.java 소스 파일을 컴파일합니다. 작성한 소스 파일(Hello.java)을 통해 바이트 코드 파일(Hello.class)을 만드는 과정입니다.
+<br/>
 <br/>
 
-	javac Hello.java
 
+컴파일러로 Hello.java 소스 파일을 컴파일합니다. 작성한 소스 파일(Hello.java)을 통해 바이트 코드 파일(Hello.class)을 만드는 과정입니다.
+
+```
+javac Hello.java
+```
 <br/>
+<br/>
+
+
 결과는 아래와 같이 나옵니다.
 
 ![자바기초](\assets\images\java\javabase05.png)
-
-
-###### 6. Temp폴더를 확인해보면 'Hello.java'파일과 'Hello.class'파일이 생성된 것을 확인할 수 있습니다.
+<br/>
 <br/>
 
+
+
+Temp폴더를 확인해보면 'Hello.java'파일과 'Hello.class'파일이 생성된 것을 확인할 수 있습니다.
 
 ![자바기초](\assets\images\java\javabase06.png)
-
-
-###### 7. Hello.class를 실행하기 위해 JVM 구동 명령어인 java.exe를 아래처럼 입력하고 실행합니다. 
+<br/>
 <br/>
 
-	java Hello
 
+Hello.class를 실행하기 위해 JVM 구동 명령어인 java.exe를 아래처럼 입력하고 실행합니다. 
+
+```
+java Hello
+```
 <br/>
-아까 작성했던 "Hello Java!!"가 정상적으로 출력되었습니다.
+<br/>
+
+
+아까 작성했던 "Hello Java!!"가 정상적으로 출력되었습니다.  
 
 ![자바기초](\assets\images\java\javabase07.png)
 
