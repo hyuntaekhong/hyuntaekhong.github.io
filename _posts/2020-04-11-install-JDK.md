@@ -1,5 +1,5 @@
 ---
-title: "[Java] Java 설치와 환경변수 설정 (JDK 8)"
+title: "[Java 01] 자바 설치와 환경변수 설정 (JDK 8)"
 date: 2020-04-11
 categories:
   - blog
