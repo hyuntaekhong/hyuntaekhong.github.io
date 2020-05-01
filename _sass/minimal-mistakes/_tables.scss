@@ -7,9 +7,10 @@ table {
   margin-bottom: 2em;
   width: 100%;
   font-family: $global-font-family;
-  font-size: $type-size-6;
+  font-size: 14px;
   border-collapse: collapse;
   overflow-x: auto;
+  
 
   & + table {
     margin-top: 1em;
@@ -18,18 +19,18 @@ table {
 
 thead {
   background-color: $border-color;
-  border-bottom: 2px solid mix(#000, $border-color, 25%);
+  border-bottom: 2px solid mix(#000, $border-color, 100%);
 }
 
 th {
-  padding: 0.5em;
+  padding: 1em;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
 }
 
 td {
-  padding: 0.5em;
-  border-bottom: 1px solid mix(#000, $border-color, 25%);
+  padding: 1em;
+  border-bottom: 1px solid mix(#000, $border-color, 100%);
 }
 
 tr,
