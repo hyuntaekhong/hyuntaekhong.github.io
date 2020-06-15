@@ -31,79 +31,79 @@ tomcat을 eclipse와 연결하기 위해서는 두가지 방법이 있습니다.
 
 1) 다운받은 압축파일을 압축해제 합니다.
 
-![tomcat](\assets\images\web\tomcat01.PNG)
+![tomcat](\assets\images\web\tomcat01.png)
 
 
 <br/>
 2) 압축해제한 파일을 eclipse-workstation 폴더로 옮겨줍니다.
 (저는 E드라이브에 새로운 eclipse-workstation 폴더를 만들어주고 workspace로 설정해주었습니다)
 
-![tomcat](\assets\images\web\tomcat02.PNG)
+![tomcat](\assets\images\web\tomcat02.png)
 
 
 <br/>
 3) tomcat 폴더가 있는 worksapce로 경로 설정 후 이클립스를 실행합니다.
 
-![tomcat](\assets\images\web\tomcat03.PNG)
+![tomcat](\assets\images\web\tomcat03.png)
 
 
 <br/>
 4) window > Show View > Servers 를 클릭합니다.
 
-![tomcat](\assets\images\web\tomcat04.PNG)
+![tomcat](\assets\images\web\tomcat04.png)
 
 
 <br/>
 5) Apache > Tomcat v9.0 Server(본인이 다운받은 버전)을 선택하고 Next를 클릭합니다.
 
-![tomcat](\assets\images\web\tomcat05.PNG)
+![tomcat](\assets\images\web\tomcat05.png)
 
 
 <br/>
 6) Tomcat Installation directory 설정을 위해 Browse... 클릭합니다.
 
-![tomcat](\assets\images\web\tomcat14.PNG)
+![tomcat](\assets\images\web\tomcat14.png)
 
 <br/>
 7) Tomcat 폴더를 선택하고 '폴더선택' 후 Finish를 클릭합니다. 
 
-![tomcat](\assets\images\web\tomcat06.PNG)
+![tomcat](\assets\images\web\tomcat06.png)
 
 <br/>
 8) 하단 Servers에 선택한 Tomcat항목이 보이고 이것를 더블클릭합니다.
 
-![tomcat](\assets\images\web\tomcat08.PNG)
+![tomcat](\assets\images\web\tomcat08.png)
 
 <br/>
 9) Port Number를 설정해줍니다. 어떤 포트를 사용하던지 상관없지만, 보통 Tomcat 버전이 v8.0이라면 8888, v9.0이라면 9999를 사용한다고 합니다. 저는 9999로 설정해주었습니다. 그 다음 Server path를 tomcat이 있는 폴더로 설정해주고 `ctrl+s`를 눌러 설정을 저장해줍니다.
 
-![tomcat](\assets\images\web\tomcat10.PNG)
+![tomcat](\assets\images\web\tomcat10.png)
 
 
 <br/>
 10) 하단의 `Start the Server`를 눌러 서버를 실행합니다. 
 
-![tomcat](\assets\images\web\tomcat15.PNG)
+![tomcat](\assets\images\web\tomcat15.png)
 
 
 <br/>
 11) 콘솔창에 아래와 같은 메세지가 나오면 성공적으로 tomcat 서버가 연동된 것입니다.
 
-![tomcat](\assets\images\web\tomcat11.PNG)
+![tomcat](\assets\images\web\tomcat11.png)
 
 <br/>
 12) 서버가 연동되었으니 web project를 만들어보겠습니다.  
 Project Explorer > New > Dynamic Web Project 를 선택하고 Finish를 클릭해 새로운 web project를 만듭니다.
 
-![tomcat](\assets\images\web\tomcat16.PNG)
+![tomcat](\assets\images\web\tomcat16.png)
 
-![tomcat](\assets\images\web\tomcat13.PNG)
+![tomcat](\assets\images\web\tomcat13.png)
 
 <br/>
 
 13) Tomcat - eclipse 연동 환경설정이 완료되었습니다. 
 
-![tomcat](\assets\images\web\tomcat17.PNG)
+![tomcat](\assets\images\web\tomcat17.png)
 
 
 
