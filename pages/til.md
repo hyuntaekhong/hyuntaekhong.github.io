@@ -1,5 +1,5 @@
 ---
-title: "Posts by Year"
+title: "TIL"
 permalink: /til/
 layout: posts
 author_profile: true
