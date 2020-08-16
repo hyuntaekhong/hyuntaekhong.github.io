@@ -8,7 +8,7 @@ tags:
   - Design_Pattern
 
 comments: true
-excerpt: 자바 디자인 패턴 - 싱글톤 패턴 
+excerpt: 자바 디자인 패턴 - 싱글톤 패턴
 last_modified_at: 2020-08-16
 toc: true
 ---
@@ -66,6 +66,8 @@ public static HelloSingle getInstance() {
 	}
 ```
 
+<br>
+
 - 2) 아래와 같이 count는 각기 다른 스레드에서 공유하고 각기 다른 프로세스에서 처리하고 있기 때문에 값이 일관되지 않을 수 있다.
 
 
@@ -103,7 +105,9 @@ public class HelloSingle {
 	- 1) static 변수에 인스턴스를 만들어 바로 초기화하는 방법
 	- 2) 인스턴스를 만드는 메서드에 동기화하는 방법 
 
-- 해결책 1) static 변수에 인스턴스를 만들어 바로 초기화하는 방법
+<br>
+
+- **해결책 1) static 변수에 인스턴스를 만들어 바로 초기화하는 방법**
 	- static 변수는 객체가 생성되기 전 클래스가 메모리에 로딩할 때 만들어져 초기화가 한 번만 실행된다. 또한 정적 변수는 프로그램이 시작될 때부터 종료될 때까지 없어지지 않고 메모리에 계속 상주하며 클래스에서 생성된 모든 객체에서 참조할 수 있다. 따라서 조건문에서 instance는 null이 될 수 없으므로 기존 생성된 instance를 리턴하게 되는 것이다.
 	- 그러나 객체생성 자체는 로드 시점에 결정되어 하나의 객체만을 사용하지만 count에 접근하는 것은 아무 제약없이 동시에 접근이 가능하므로 원치않는 결과를 가져올수도 있다. 
 	- 이를 해결하는 방법은 아래의 코드처럼 synchronized를 통해 여러 스레드에서 동시에 접근하는 것을 막는 방법이다.
@@ -135,9 +139,13 @@ public class HelloSingle {
 - 이 방법처럼 static을 선언하면 객체를 전혀 생성하지 않고 메서드를 사용할 수 있고 인스턴스 메서드를 사용하는 것보다 성능 면에서 우수하다.
 
 
-- 해결책 2) 인스턴스를 메서드에 동기화시키는 방법
+<br>
+
+- **해결책 2) 인스턴스를 메서드에 동기화시키는 방법**
 	- 인터페이스를 구현하는 경우, 인터페이스는 static 메서드를 가질 수 없기 때문에 static을 사용할 수 없는 상황이 발생한다.
 
+
+<br>
 
 **[ Printer.java 인터페이스 ]**
 
@@ -147,6 +155,8 @@ public interface Printer {
 }
 ```
 
+
+<br>
 
 **[ RealPrinter.java ]**
 
@@ -170,6 +180,7 @@ public class RealPrinter implements Printer{
 }
 ```
 
+<br>
 
 **[ UsePrinter.java ]**
 
@@ -180,6 +191,8 @@ public class UsePrinter {
 	}
 }
 ```
+
+<br>
 
 **[ FakePrinter.java ]**
 
@@ -196,6 +209,8 @@ public class FakePrinter implements Printer{
 	}
 }
 ```
+
+<br>
 
 **[ UsePrinterTest.java ]**
 
