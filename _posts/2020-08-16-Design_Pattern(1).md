@@ -8,7 +8,6 @@ tags:
   - Design Pattern
 comments: true
 excerpt: 자바 디자인 패턴 : 싱글톤 패턴 
-cover:  
 last_modified_at: 2020-08-16
 toc: true
 ---
