@@ -1,8 +1,8 @@
 ---
-title: "[TIL] 2020.08.13_Spring Framework install"
+title: "[Spring] Spring Framework install"
 date: 2020-08-13
 categories:
-  - TIL
+  - blog
 tags:
   - WEB
   - SPRING
