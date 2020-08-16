@@ -1,13 +1,14 @@
 ---
-title: "[Design Pattern] 자바 디자인 패턴 : Singleton"
+title: "[Design Pattern] 자바 디자인 패턴 - Singleton"
 date: 2020-08-16
 categories:
   - blog
 tags:
   - JAVA
-  - Design Pattern
+  - Design_Pattern
+
 comments: true
-excerpt: 자바 디자인 패턴 : 싱글톤 패턴 
+excerpt: 자바 디자인 패턴 - 싱글톤 패턴 
 last_modified_at: 2020-08-16
 toc: true
 ---
