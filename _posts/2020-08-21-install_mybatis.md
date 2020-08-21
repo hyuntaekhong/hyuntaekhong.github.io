@@ -37,7 +37,7 @@ toc: true
 - mybatis 실습할 java Project를 만든다. (java 콘솔로 실습 후 web으로 넘어갈 예정)
 - 'mybatis-study' 라는 프로젝트 생성
 
-![Spring](/assets/images/spring/mybatis/mybatis_install04.PNG)
+![Spring](/assets/images/spring/mybatis/mybatis_install04.png)
 
 
 ### 5) mybatis-study 프로젝트 아래에 lib 이라는 폴더 생성하고 jar 파일 붙여넣기
@@ -52,7 +52,7 @@ toc: true
 
 - 붙여넣은 jar 파일을 라이브러리에 추가하기 위한 과정
 
-![Spring](/assets/images/spring/mybatis/mybatis_install06.PNG)
+![Spring](/assets/images/spring/mybatis/mybatis_install06.png)
 
 ### 7) libraries > add JARs... 클릭 후 lib 폴더 아래의 mybatis-3.5.5.jar를 선택하고 OK 클릭
 
