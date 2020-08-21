@@ -1,6 +1,6 @@
 ---
 title: "[SPRING] 2020.08.21_이클립스에 mybatis 설치"
-date: 2020-08-20
+date: 2020-08-21
 categories:
   - blog
 tags:
@@ -75,5 +75,3 @@ toc: true
 
 ![Spring](/assets/images/spring/mybatis/mybatis_install09.PNG)
 
-
-2. mybatis 환경 설정
